@@ -1,0 +1,13 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favorite">Favorite</string>
+    <string name="movies">Movies</string>
+    <string name="tvshows">Tv Shows</string>
+    <string name="message_undo">Batalkan hapus?</string>
+    <string name="message_ok">OK</string>
+    <string name="notfound">notFound</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="no_data">NO DATA!</string>
+    <string name="clear">Hapus</string>
+</resources>

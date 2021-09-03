@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable-v24/bg_radius.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable-v24/bubble_navigation_bg.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable-v24/ic_border_1.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable-v24/ic_favorite.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable-v24/ic_people_black_24dp.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable-v24/shadow.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable/bg_radius.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable/ic_date.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable/ic_default.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable/ic_movie_black_24dp.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable/ic_public_black_24dp.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable/ic_rectangle_2.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable/ic_search.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable/ic_star_black.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable/ic_tv_shows.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/drawable/shadow.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/layout/activity_detail.xml" value="0.10144927536231885" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/layout/activity_home.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/layout/content_detail.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/layout/fragment_favorite_movies.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/layout/fragment_movies.xml" value="0.12" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/layout/fragment_tv_shows.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/app/src/main/res/menu/search_menu.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/core/src/main/res/drawable/ic_error.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/core/src/main/res/drawable/ic_line3hdpi.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/core/src/main/res/drawable/ic_loading.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/core/src/main/res/drawable/ic_refresh_black.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/core/src/main/res/layout/list_movie.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/favorite/src/main/res/layout/fragment_favorite.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/favorite/src/main/res/layout/fragment_favorite_movies.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/favorites/src/main/res/drawable/ic_clear_24dp.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/favorites/src/main/res/layout/fragment_favorite.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/favorites/src/main/res/layout/fragment_favorite_movies.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/favorites/src/main/res/layout/fragment_favorite_tv_shows.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/Documents/AndroidStudio/Dicoding/MadeSubmission/favorites/src/main/res/menu/favorites_menu.xml" value="0.13703703703703704" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

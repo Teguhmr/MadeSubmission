@@ -1,0 +1,5 @@
+<resources>
+    <string name="movie">Movie</string>
+    <string name="baseUrlImage">http://image.tmdb.org/t/p/w500%s</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_grid"
+    xmlns:car_view="http://schemas.android.com/tools"
+    app:cardBackgroundColor="@color/colorPrimaryBottom"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    car_view:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="8dp">
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="150dp"
+            android:layout_height="210dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/movie"
+            android:src="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_item_photo"
+            android:textAlignment="center"
+            android:fontFamily="@font/bebasneue_reg"
+            android:text="title"
+            android:textColor="@color/colorPrimaryTernary"
+            android:layout_marginTop="5dp"
+            android:textSize="17sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
