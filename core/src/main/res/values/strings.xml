@@ -1,5 +1,6 @@
 <resources>
     <string name="movie">Movie</string>
     <string name="baseUrlImage">http://image.tmdb.org/t/p/w500%s</string>
+    <string name="API_KEY">5ebf6490a31e204628f346825746a837</string>
 
 </resources>

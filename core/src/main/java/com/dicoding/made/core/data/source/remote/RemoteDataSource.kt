@@ -1,5 +1,6 @@
 package com.dicoding.made.core.data.source.remote
 
+import com.dicoding.made.core.BuildConfig
 import com.dicoding.made.core.data.source.remote.network.ApiResponse
 import com.dicoding.made.core.data.source.remote.network.ApiService
 import com.dicoding.made.core.data.source.remote.response.MovieResponse
@@ -11,7 +12,7 @@ import kotlinx.coroutines.flow.flowOn
 
 class RemoteDataSource(private val apiService: ApiService) {
 
-    private val apiKey = "5ebf6490a31e204628f346825746a837" //API KEY
+    private val apiKey = BuildConfig.KEY //API KEY
 
     suspend fun getMovies(): Flow<ApiResponse<List<MovieResponse>>> {
         return flow {

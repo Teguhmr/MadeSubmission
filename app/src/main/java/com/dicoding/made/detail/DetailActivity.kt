@@ -21,9 +21,6 @@ import java.util.*
 
 class DetailActivity : AppCompatActivity() {
 
-    companion object {
-        const val EXTRA_MOVIE = "extraMovie"
-    }
 
     private lateinit var binding: ActivityDetailBinding
     private val viewModel: DetailViewModel by viewModel()
@@ -112,4 +109,9 @@ class DetailActivity : AppCompatActivity() {
         binding.detailContent.favouriteButton.isFavorite = state
 
     }
+
+    companion object {
+        const val EXTRA_MOVIE = "extraMovie"
+    }
+
 }

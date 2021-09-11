@@ -18,11 +18,12 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
+        buildConfigField("String", "KEY", '"5ebf6490a31e204628f346825746a837"')
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -55,4 +56,6 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
 
     api "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    implementation 'net.zetetic:android-database-sqlcipher:4.4.0@aar'
+    implementation "androidx.sqlite:sqlite-ktx:2.1.0"
 }
