@@ -1,4 +1,4 @@
 # MadeSubmission
-Made Submission
+# My clean arc
+[![Teguhmr](https://circleci.com/gh/Teguhmr/MadeSubmission.svg?style=shield)](https://circleci.com/gh/Teguhmr/MadeSubmission)
 
-[![Teguhmr](https://circleci.com/gh/Teguhmr/MadeSubmission.svg?style=svg)](https://circleci.com/gh/Teguhmr/MadeSubmission)
