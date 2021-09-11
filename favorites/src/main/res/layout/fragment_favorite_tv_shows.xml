@@ -10,11 +10,13 @@
     tools:ignore="Overdraw">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFavoriteTvShows"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/list_movie" />
 
     <ProgressBar
+        android:id="@+id/progress_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,6 +38,7 @@
         app:lottie_rawRes="@raw/no_data_yellow" />
 
     <TextView
+        android:id="@+id/not_found_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/no_data"
