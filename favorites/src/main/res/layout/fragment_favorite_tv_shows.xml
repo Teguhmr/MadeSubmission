@@ -6,10 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".tvshows.FavoriteTvShowsFragment">
+    tools:context=".tvshows.FavoriteTvShowsFragment"
+    tools:ignore="Overdraw">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_favorite_tv_shows"
+        android:id="@+id/rvFavoriteTvShows"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/list_movie" />
