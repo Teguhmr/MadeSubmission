@@ -27,13 +27,14 @@ import org.koin.android.viewmodel.ext.android.viewModel
 @FlowPreview
 class TvShowsFragment : Fragment() {
 
-    private lateinit var binding: FragmentTvShowsBinding
+    private var fragmentTvShowsBinding: FragmentTvShowsBinding? = null
+    private val binding get() = fragmentTvShowsBinding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentTvShowsBinding.inflate(inflater, container, false)
+        fragmentTvShowsBinding = FragmentTvShowsBinding.inflate(inflater, container, false)
         val toolbar: Toolbar = activity?.findViewById<View>(R.id.toolbar) as Toolbar
         (activity as AppCompatActivity?)?.setSupportActionBar(toolbar)
         setHasOptionsMenu(true)
@@ -168,5 +169,8 @@ class TvShowsFragment : Fragment() {
         })
     }
 
-
+    override fun onDestroyView() {
+        super.onDestroyView()
+        fragmentTvShowsBinding = null
+    }
 }
