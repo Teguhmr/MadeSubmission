@@ -45,7 +45,7 @@ class MoviesFragment : Fragment() {
     private val viewModel: MoviesViewModel by viewModel()
     private lateinit var moviesAdapter: MoviesAdapter
     private val searchViewModel: SearchViewModel by viewModel()
-    private lateinit var searchView: MaterialSearchView
+    private var searchView: MaterialSearchView? = null
     private var sort = SortUtils.NEWEST
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -94,7 +94,7 @@ class MoviesFragment : Fragment() {
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         inflater.inflate(R.menu.search_menu, menu)
         val item = menu.findItem(R.id.action_search)
-        searchView.setMenuItem(item)
+        searchView!!.setMenuItem(item)
     }
 
     private fun setList(sort: String) {
@@ -126,7 +126,7 @@ class MoviesFragment : Fragment() {
     }
 
     private fun observeSearchQuery() {
-        searchView.setOnQueryTextListener(object : MaterialSearchView.OnQueryTextListener {
+        searchView!!.setOnQueryTextListener(object : MaterialSearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 return true
             }
@@ -153,7 +153,7 @@ class MoviesFragment : Fragment() {
             }
             moviesAdapter.setData(movies)
         })
-        searchView.setOnSearchViewListener(object : MaterialSearchView.SearchViewListener{
+        searchView!!.setOnSearchViewListener(object : MaterialSearchView.SearchViewListener{
             override fun onSearchViewShown() {
                 binding.progressBar.visibility = View.GONE
                 binding.notFound.visibility = View.GONE
@@ -172,6 +172,7 @@ class MoviesFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _fragmentMoviesBinding = null
+        searchView = null
     }
 
 }

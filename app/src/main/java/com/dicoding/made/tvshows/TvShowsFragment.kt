@@ -45,7 +45,7 @@ class TvShowsFragment : Fragment() {
     private val viewModel: TvShowsViewModel by viewModel()
     private lateinit var tvShowsAdapter: MoviesAdapter
     private val searchViewModel: SearchViewModel by viewModel()
-    private lateinit var searchView: MaterialSearchView
+    private var searchView: MaterialSearchView? = null
     private var sort = SortUtils.NEWEST
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -93,7 +93,7 @@ class TvShowsFragment : Fragment() {
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         inflater.inflate(R.menu.search_menu, menu)
         val item = menu.findItem(R.id.action_search)
-        searchView.setMenuItem(item)
+        searchView!!.setMenuItem(item)
     }
 
     private fun setList(sort: String) {
@@ -125,7 +125,7 @@ class TvShowsFragment : Fragment() {
     }
 
     private fun observeSearchQuery() {
-        searchView.setOnQueryTextListener(object : MaterialSearchView.OnQueryTextListener {
+        searchView!!.setOnQueryTextListener(object : MaterialSearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 return true
             }
@@ -153,7 +153,7 @@ class TvShowsFragment : Fragment() {
             }
             tvShowsAdapter.setData(tvShows)
         })
-        searchView.setOnSearchViewListener(object : MaterialSearchView.SearchViewListener {
+        searchView!!.setOnSearchViewListener(object : MaterialSearchView.SearchViewListener {
             override fun onSearchViewShown() {
                 binding.progressBar.visibility = View.GONE
                 binding.notFound.visibility = View.GONE
@@ -171,6 +171,7 @@ class TvShowsFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
+        searchView = null
         fragmentTvShowsBinding = null
     }
 }
