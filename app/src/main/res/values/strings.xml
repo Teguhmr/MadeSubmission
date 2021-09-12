@@ -8,18 +8,14 @@
     <string name="poster_movie">Poster</string>
     <string name="overview">Overview</string>
     <string name="release">Release</string>
-    <string name="genres_label">Genres</string>
     <string name="vote">vote</string>
     <string name="language">language</string>
     <string name="rating">rating</string>
     <string name="name_title">title</string>
     <string name="search">Search</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="no_data">No data</string>
     <string name="logo">Logo</string>
     <string name="add_to_fav">Ditambahkan ke favorit</string>
     <string name="removed_from_fav">Dihapus dari favorit</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="title_favorites">Module Title</string>
 </resources>

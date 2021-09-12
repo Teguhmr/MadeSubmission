@@ -16,8 +16,4 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="CustomTabLayoutText" parent="TextAppearance.Design.Tab">
-        <item name="android:textSize">13sp</item>
-        <item name="android:textColor">@android:color/white</item>
-    </style>
 </resources>
