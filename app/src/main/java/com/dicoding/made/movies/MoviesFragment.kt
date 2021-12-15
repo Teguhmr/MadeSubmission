@@ -26,7 +26,7 @@ import org.koin.android.viewmodel.ext.android.viewModel
 @ExperimentalCoroutinesApi
 @FlowPreview
 class MoviesFragment : Fragment() {
-
+'//'.
     private var _fragmentMoviesBinding: FragmentMoviesBinding? = null
     private val binding get() = _fragmentMoviesBinding!!
 
